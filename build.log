@@ -1,17 +1,66 @@
-2025-06-25T17:43:38+07:00 INF Building new k6 binary (native)
-2025-06-25T17:43:38+07:00 INF Initializing Go module
+2025-06-25T17:47:38+07:00 INF Building new k6 binary (native)
+2025-06-25T17:47:38+07:00 INF Initializing Go module
 go: creating new go.mod: module k6
-2025-06-25T17:43:38+07:00 INF Creating k6 main
-2025-06-25T17:43:38+07:00 INF adding dependency go.k6.io/k6 => go.k6.io/k6@latest
+2025-06-25T17:47:38+07:00 INF Creating k6 main
+2025-06-25T17:47:38+07:00 INF adding dependency go.k6.io/k6 => go.k6.io/k6@latest
+go: downloading go.k6.io/k6 v1.0.0
 go: found go.k6.io/k6/cmd in go.k6.io/k6 v0.0.0-00010101000000-000000000000
+go: downloading github.com/Masterminds/semver/v3 v3.3.1
+go: downloading github.com/grafana/k6deps v0.2.6
+go: downloading github.com/grafana/k6provider v0.1.15
+go: downloading github.com/grafana/xk6-dashboard v0.7.5
+go: downloading github.com/mstoykov/envconfig v1.5.0
+go: downloading golang.org/x/crypto/x509roots/fallback v0.0.0-20250414110644-0091fc8e7c69
+go: downloading go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.35.0
+go: downloading go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.35.0
+go: downloading go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp v1.35.0
+go: downloading github.com/gorilla/websocket v1.5.3
+go: downloading github.com/grafana/sobek v0.0.0-20250320150027-203dc85b6d98
+go: downloading github.com/grafana/xk6-redis v0.3.3
+go: downloading github.com/klauspost/compress v1.18.0
+go: downloading go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc v1.35.0
+go: downloading go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp v1.35.0
+go: downloading go.opentelemetry.io/otel/sdk/metric v1.35.0
+go: downloading go.opentelemetry.io/proto/otlp v1.5.0
+go: downloading buf.build/gen/go/prometheus/prometheus/protocolbuffers/go v1.36.5-20240802094132-5b212ab78fb7.1
+go: downloading go.uber.org/goleak v1.3.0
+go: downloading github.com/andybalholm/brotli v1.1.1
+go: downloading github.com/grafana/k6build v0.5.11
+go: downloading github.com/evanw/esbuild v0.25.3
+go: downloading github.com/mstoykov/k6-taskqueue-lib v0.1.3
+go: downloading github.com/jhump/protoreflect v1.17.0
+go: downloading github.com/PuerkitoBio/goquery v1.9.2
+go: downloading github.com/tidwall/gjson v1.18.0
+go: downloading github.com/redis/go-redis/v9 v9.0.5
+go: downloading github.com/google/pprof v0.0.0-20230728192033-2ba5b33183c6
+go: downloading github.com/grpc-ecosystem/grpc-gateway/v2 v2.26.1
+go: downloading buf.build/gen/go/gogo/protobuf/protocolbuffers/go v1.36.5-20210810001428-4df00b267f94.1
+go: downloading github.com/pkg/browser v0.0.0-20210911075715-681adbf594b8
+go: downloading github.com/r3labs/sse/v2 v2.10.0
+go: downloading github.com/chromedp/cdproto v0.0.0-20240919203636-12af5e8a671f
+go: downloading github.com/cenkalti/backoff/v4 v4.3.0
+go: downloading github.com/andybalholm/cascadia v1.3.2
+go: downloading github.com/bufbuild/protocompile v0.14.1
+go: downloading google.golang.org/genproto/googleapis/api v0.0.0-20250218202821-56aae31c358a
+go: downloading gopkg.in/cenkalti/backoff.v1 v1.1.0
+go: downloading github.com/google/go-cmp v0.7.0
+go: downloading github.com/onsi/gomega v1.33.0
+go: downloading github.com/grafana/k6foundry v0.4.6
+go: downloading github.com/xyproto/randomstring v1.0.5
+go: downloading github.com/bsm/ginkgo/v2 v2.7.0
+go: downloading github.com/bsm/gomega v1.26.0
+go: downloading github.com/rogpeppe/go-internal v1.13.1
+go: downloading github.com/nxadm/tail v1.4.11
+go: downloading golang.org/x/mod v0.23.0
 go: finding module for package github.com/fsnotify/fsnotify
 go: finding module for package gopkg.in/tomb.v1
+go: downloading github.com/fsnotify/fsnotify v1.9.0
 go: found gopkg.in/tomb.v1 in gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7
 go: found github.com/fsnotify/fsnotify in github.com/fsnotify/fsnotify v1.9.0
-2025-06-25T17:43:39+07:00 INF importing extensions
-2025-06-25T17:43:39+07:00 INF adding dependency github.com/tdarmawan/k6-extension-demo => .
+2025-06-25T17:47:57+07:00 INF importing extensions
+2025-06-25T17:47:57+07:00 INF adding dependency github.com/tdarmawan/k6-extension-demo => .
 go: found github.com/tdarmawan/k6-extension-demo in github.com/tdarmawan/k6-extension-demo v0.0.0-00010101000000-000000000000
-2025-06-25T17:43:39+07:00 INF Building k6
+2025-06-25T17:47:57+07:00 INF Building k6
 github.com_tdarmawan_k6-extension-demo.go:3:9: import "github.com/tdarmawan/k6-extension-demo" is a program, not an importable package
-2025-06-25T17:43:39+07:00 INF Cleaning up work directory /var/folders/7m/yh6bp5cd4yvbmdznhc9f48f40000gn/T/k6foundry173725222
-2025-06-25T17:43:39+07:00 ERR compiling: executing go command: exit status 1
+2025-06-25T17:47:58+07:00 INF Cleaning up work directory /var/folders/7m/yh6bp5cd4yvbmdznhc9f48f40000gn/T/k6foundry1713481575
+2025-06-25T17:47:58+07:00 ERR compiling: executing go command: exit status 1
