@@ -1,0 +1,12 @@
+2025-06-25T18:32:49+07:00 INF Building new k6 binary (native)
+2025-06-25T18:32:49+07:00 INF Initializing Go module
+2025-06-25T18:32:49+07:00 INF Creating k6 main
+2025-06-25T18:32:49+07:00 INF adding dependency go.k6.io/k6 => go.k6.io/k6@v0.47.0
+2025-06-25T18:32:49+07:00 INF importing extensions
+2025-06-25T18:32:49+07:00 INF adding dependency github.com/tdarmawan/k6-extension-demo => .
+2025-06-25T18:32:49+07:00 INF Building k6
+2025-06-25T18:32:53+07:00 INF Build complete
+2025-06-25T18:32:53+07:00 INF Cleaning up work directory /var/folders/7m/yh6bp5cd4yvbmdznhc9f48f40000gn/T/k6foundry2318630500
+2025-06-25T18:32:53+07:00 INF Successful build platform=darwin/arm64
+2025-06-25T18:32:53+07:00 INF added module=go.k6.io/k6 version=v0.46.1-0.20230921075448-d1c5ee8fb28d
+2025-06-25T18:32:53+07:00 INF added module=github.com/tdarmawan/k6-extension-demo version=v0.0.0-00010101000000-000000000000

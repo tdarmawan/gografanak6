@@ -1,4 +1,4 @@
-module github.com/tdarmawan/gografanak6/k6-extension-demo
+module github.com/tdarmawan/k6-extension-demo
 
 go 1.23.0
 
