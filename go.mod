@@ -1,4 +1,4 @@
-module gografanak6
+module github.com/tdarmawan/k6-extension-demo
 
 go 1.24.2
 
