@@ -7,6 +7,8 @@ require (
 	go.k6.io/k6 v1.0.0
 )
 
+replace github.com/tdarmawan/gografanak6/k6-extension-demo => ./k6-extension-demo
+
 require (
 	github.com/cenkalti/backoff/v4 v4.3.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect

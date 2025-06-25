@@ -1,21 +1,13 @@
-2025-06-25T17:58:50+07:00 INF Building new k6 binary (native)
-2025-06-25T17:58:50+07:00 INF Initializing Go module
+2025-06-25T18:02:08+07:00 INF Building new k6 binary (native)
+2025-06-25T18:02:08+07:00 INF Initializing Go module
 go: creating new go.mod: module k6
-2025-06-25T17:58:50+07:00 INF Creating k6 main
-2025-06-25T17:58:50+07:00 INF adding dependency go.k6.io/k6 => go.k6.io/k6@latest
+2025-06-25T18:02:08+07:00 INF Creating k6 main
+2025-06-25T18:02:08+07:00 INF adding dependency go.k6.io/k6 => go.k6.io/k6@v0.47.0
 go: found go.k6.io/k6/cmd in go.k6.io/k6 v0.0.0-00010101000000-000000000000
-go: finding module for package github.com/fsnotify/fsnotify
-go: finding module for package gopkg.in/tomb.v1
-go: found gopkg.in/tomb.v1 in gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7
-go: found github.com/fsnotify/fsnotify in github.com/fsnotify/fsnotify v1.9.0
-2025-06-25T17:58:51+07:00 INF importing extensions
-2025-06-25T17:58:51+07:00 INF adding dependency github.com/tdarmawan/gografanak6/k6-extension-demo => .
-go: finding module for package github.com/tdarmawan/gografanak6/k6-extension-demo
-go: downloading github.com/tdarmawan/gografanak6 v0.0.0-20250625105807-2b7c0877a2d7
-go: found github.com/tdarmawan/gografanak6/k6-extension-demo in github.com/tdarmawan/gografanak6 v0.0.0-20250625105807-2b7c0877a2d7
+2025-06-25T18:02:08+07:00 INF importing extensions
+2025-06-25T18:02:08+07:00 INF adding dependency github.com/tdarmawan/gografanak6/k6-extension-demo => ./k6-extension-demo
+go: found github.com/tdarmawan/gografanak6/k6-extension-demo in github.com/tdarmawan/gografanak6/k6-extension-demo v0.0.0-00010101000000-000000000000
 go: k6 imports
-	github.com/tdarmawan/gografanak6/k6-extension-demo: github.com/tdarmawan/gografanak6@v0.0.0-20250625105807-2b7c0877a2d7: parsing go.mod:
-	module declares its path as: github.com/tdarmawan/gografanak6/k6-extension-demo
-	        but was required as: github.com/tdarmawan/gografanak6
-2025-06-25T17:59:10+07:00 INF Cleaning up work directory /var/folders/7m/yh6bp5cd4yvbmdznhc9f48f40000gn/T/k6foundry2878658367
-2025-06-25T17:59:10+07:00 ERR resolving dependency: executing go command: exit status 1
+	github.com/tdarmawan/gografanak6/k6-extension-demo: module /Users/thomasdarmawan/Documents/github/gografanak6/k6-extension-demo: reading /Users/thomasdarmawan/Documents/github/gografanak6/k6-extension-demo/go.mod: open /Users/thomasdarmawan/Documents/github/gografanak6/k6-extension-demo/go.mod: no such file or directory
+2025-06-25T18:02:08+07:00 INF Cleaning up work directory /var/folders/7m/yh6bp5cd4yvbmdznhc9f48f40000gn/T/k6foundry1127922515
+2025-06-25T18:02:08+07:00 ERR resolving dependency: executing go command: exit status 1
